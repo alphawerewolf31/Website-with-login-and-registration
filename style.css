@@ -10,13 +10,13 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('/images/background.jpg') no-repeat;
+    background: url('https://img.freepik.com/free-vector/night-ocean-landscape-full-moon-stars-shine_107791-7397.jpg?w=2000&t=st=1684607100~exp=1684607700~hmac=04707e2686e94cbafa894efb8516d3009224918e8dedfca0d52a2a105ed0df91') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 header {
-    position: fixed;
+    position:absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -26,6 +26,7 @@ header {
     align-items: center;
     z-index: 99;
 }
+
 .logo{
     font-size: 2em;
     color: #fff;
